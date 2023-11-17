@@ -1,0 +1,306 @@
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1700111336.579][INFO]: [f57e81af118400ad60289c912e74bfb7] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "w3c": true
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1700111336.582][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1700111336.582][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1700111336.582][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/bc/6b1mjw4s4456g_gg5zbd9rw00000gn/T/.com.google.Chrome.Wm7CmN data:,
+[78750:259:1116/103857.010083:WARNING:chrome_main_delegate.cc(660)] This is Chrome version 119.0.6045.123 (not a warning)
+[78750:259:1116/103857.621898:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[78750:259:1116/103857.622688:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:64412/devtools/browser/5ba56321-e0ae-455e-a625-82abd90234da
+[1700111337.880][DEBUG]: DevTools HTTP Request: http://localhost:64412/json/version
+[1700111339.111][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/119.0.6045.123",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+   "V8-Version": "11.9.169.6",
+   "WebKit-Version": "537.36 (@b9e5b8a154549bb57a57b9c822607bc3289fc5b9)",
+   "webSocketDebuggerUrl": "ws://localhost:64412/devtools/browser/5ba56321-e0ae-455e-a625-82abd90234da"
+}
+
+[1700111339.111][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[78761:15619:1116/103859.760813:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from LoadNelPoliciesAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_reporting_and_nel_store.cc:1324 to client_task_runner_.
+[78761:19203:1116/103859.765863:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from operator()@net/extras/sqlite/sqlite_persistent_shared_dictionary_store.cc:252 to client_task_runner_.
+[78750:259:1116/103859.780671:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[1700111339.948][INFO]: [f57e81af118400ad60289c912e74bfb7] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 119.0.6045.123 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1700111339.948][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1700111339.948][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1700111340.959][INFO]: [531c34048d5b37847f1518ed965515a1] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "w3c": true
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1700111340.959][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1700111340.959][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1700111340.960][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/bc/6b1mjw4s4456g_gg5zbd9rw00000gn/T/.com.google.Chrome.5X6vvc data:,
+[78775:259:1116/103901.054003:WARNING:chrome_main_delegate.cc(660)] This is Chrome version 119.0.6045.123 (not a warning)
+[78775:259:1116/103901.274792:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[78775:259:1116/103901.274839:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:64417/devtools/browser/57316c32-44ba-4810-becf-a555682de14d
+[1700111341.378][DEBUG]: DevTools HTTP Request: http://localhost:64417/json/version
+[1700111342.485][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/119.0.6045.123",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+   "V8-Version": "11.9.169.6",
+   "WebKit-Version": "537.36 (@b9e5b8a154549bb57a57b9c822607bc3289fc5b9)",
+   "webSocketDebuggerUrl": "ws://localhost:64417/devtools/browser/57316c32-44ba-4810-becf-a555682de14d"
+}
+
+[1700111342.485][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[78782:20739:1116/103903.011196:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FinishedLoadingCookies@net/extras/sqlite/sqlite_persistent_cookie_store.cc:1467 to client_task_runner_.
+[78782:20739:1116/103903.011325:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from LoadKeyAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_cookie_store.cc:740 to client_task_runner_.
+[78782:19203:1116/103903.022110:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from operator()@net/extras/sqlite/sqlite_persistent_shared_dictionary_store.cc:252 to client_task_runner_.
+[78775:259:1116/103903.035402:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[1700111343.230][INFO]: [531c34048d5b37847f1518ed965515a1] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 119.0.6045.123 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1700111343.230][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1700111343.230][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1700111344.239][INFO]: [29d58dc2ec5452af51a01993a98ca130] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "w3c": true
+         }
+      },
+      "firstMatch": [ {
+      } ]
+   }
+}
+[1700111344.240][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1700111344.240][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1700111344.240][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/bc/6b1mjw4s4456g_gg5zbd9rw00000gn/T/.com.google.Chrome.fiz9nt data:,
+[78791:259:1116/103904.341573:WARNING:chrome_main_delegate.cc(660)] This is Chrome version 119.0.6045.123 (not a warning)
+[78791:259:1116/103904.572332:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(168) Starting CBCM Controller Initialization
+[78791:259:1116/103904.572376:INFO:policy_logger.cc(145)] :components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc(196) No machine level policy manager exists.
+
+DevTools listening on ws://127.0.0.1:64426/devtools/browser/170492f0-711d-4ee3-96e5-22cfde4cb60c
+[1700111344.654][DEBUG]: DevTools HTTP Request: http://localhost:64426/json/version
+[1700111345.614][DEBUG]: DevTools HTTP Response: {
+   "Browser": "Chrome/119.0.6045.123",
+   "Protocol-Version": "1.3",
+   "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+   "V8-Version": "11.9.169.6",
+   "WebKit-Version": "537.36 (@b9e5b8a154549bb57a57b9c822607bc3289fc5b9)",
+   "webSocketDebuggerUrl": "ws://localhost:64426/devtools/browser/170492f0-711d-4ee3-96e5-22cfde4cb60c"
+}
+
+[1700111345.614][INFO]: Failed to connect to Chrome. Attempting to kill it.
+[78798:17667:1116/103906.060600:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FinishedLoadingCookies@net/extras/sqlite/sqlite_persistent_cookie_store.cc:1467 to client_task_runner_.
+[78798:17667:1116/103906.078375:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from LoadKeyAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_cookie_store.cc:740 to client_task_runner_.
+[78798:12547:1116/103906.210667:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from operator()@net/extras/sqlite/sqlite_persistent_shared_dictionary_store.cc:252 to client_task_runner_.
+[78791:259:1116/103906.224715:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[1700111346.311][INFO]: [29d58dc2ec5452af51a01993a98ca130] RESPONSE InitSession ERROR session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 119.0.6045.123 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1700111346.311][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1700111346.311][DEBUG]: Log type 'browser' lost 0 entries on destruction
